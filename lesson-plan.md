@@ -2,18 +2,20 @@
 
 ## General information
 
-**Duration**: 3 hours (max 1 hour theory)
+**Duration**: 3 hours (1h theory, 2h practic)
 
-**Primary teacher**: <>
+**Primary teacher**: 
 
-**Secondary teacher**: <>
+**Secondary teacher**: 
 
 ## Goal
-at the end of the lesson the student should have
-- A basic understanding of the use of docker-compose
-- An understanding of why you should use multiple containers
-- The ability to create docker-compose files edit and run them
-- An understanding of how docker containers communicate with each other
+At the end of the lesson, the students should:
+- know what a container is and how it works
+- have interacted with basic cli commands on: start/stop a container, build/pull/push a Docker image etc.
+- know what a Dockerfile is and how to write a simple one
+- have an understanding about Docker networking and data storage (e.g.: volumes)
+- have a basic understanding of what Docker compose is and how to use it
+- the ability to create docker-compose files edit and run them
 
 ## Resources required/used
 Example:
