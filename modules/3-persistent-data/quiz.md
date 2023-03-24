@@ -19,5 +19,3 @@
 - [ ] docker pull mysql
 
 <hr>
-
-🌌 **[Ventress is advancing with her troops! Go fight her before we lose our headquarters!](homework.md)**

@@ -20,8 +20,7 @@
 
 <hr>
 
-#### Advanced docker compose with secrets
-https://blog.ruanbekker.com/blog/2017/11/23/use-docker-secrets-with-mysql-on-docker-swarm/
+🌌 [DYOR: Advanced docker compose with secrets](https://blog.ruanbekker.com/blog/2017/11/23/use-docker-secrets-with-mysql-on-docker-swarm/)
 
 <hr>
 

@@ -4,7 +4,6 @@
 FROM debian:bullseye-slim
 # all images must have a FROM
 # usually from a minimal Linux distribution like debian or (even better) alpine
-# if you truly want to start with an empty container, use FROM scratch
 
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
@@ -110,9 +109,8 @@ RUN set -x \
 # COPY 30-tune-worker-processes.sh /docker-entrypoint.d
 # ENTRYPOINT ["/docker-entrypoint.sh"]
 
-#EXPOSE 90
+EXPOSE 80
 
--p 80:90
 # expose these ports on the docker virtual network
 # you still need to use -p or -P to open/forward these ports on host
 

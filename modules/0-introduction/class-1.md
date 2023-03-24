@@ -7,8 +7,9 @@
 
 <hr>
 
-## What are Docker containers? Are they better? What's so different about them?
-### Let's check it out [here](https://www.canva.com/design/DAENwPyIYl8/UKZUucq40T4RFBtTN7JVyA/view?utm_content=DAENwPyIYl8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+# What are Docker containers? Are they better? What's so different about them?
+## Let's check it out [here](https://www.docker.com/resources/what-container/)
+### DYOR: presentation [here](https://www.canva.com/design/DAENwPyIYl8/UKZUucq40T4RFBtTN7JVyA/view?utm_content=DAENwPyIYl8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 <hr>
 

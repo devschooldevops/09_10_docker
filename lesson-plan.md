@@ -2,11 +2,11 @@
 
 ## General information
 
-**Duration**: 3 hours (1h theory, 2h practic)
+**Duration**: 3 hours (1h theory, 2h practice)
 
-**Primary teacher**: 
+**Primary teacher**: Bogdan Bujor
 
-**Secondary teacher**: 
+**Secondary teacher**: Andrada Raducanu
 
 ## Goal
 At the end of the lesson, the students should:
@@ -19,13 +19,12 @@ At the end of the lesson, the students should:
 
 ## Resources required/used
 Example:
-- Azure virtual machines;
-- Repos;
-- Local machine; etc
+- Docker Desktop;
+- Account on hub.docker.com;
 
 ## Prerequisites
-- what do the students need to have installed before the lesson
-- what do the students need to know before the lesson
+- Docker Desktop;
+- Account on hub.docker.com;
 
 ## Agenda
 Example:
@@ -37,4 +36,3 @@ Example:
 
 ## Feedback from teachers:
 (generic survey will be setup)
-

@@ -5,4 +5,4 @@
 - When running `mysql`, use the `--env` option (or `-e`) to pass in `MYSQL_RANDOM_ROOT_PASSWORD=yes`
 - Use `docker container logs` on mysql to find the random password it created on startup
 - Clean it all up with `docker container stop` and `docker container rm` (both can accept multiple names or ID's)
-- Use `docker container ls` (or `docker ps`) to ensure everything is corrent before and after cleanup
+- Use `docker container ps` (or `docker ps`) to ensure everything is corrent before and after cleanup

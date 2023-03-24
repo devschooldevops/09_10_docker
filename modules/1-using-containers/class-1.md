@@ -4,7 +4,6 @@
 - How to run a container?
 - How to start/stop/remove/inspect a container?
 - Shell inside container
-- [Networking](class-2.md)
 <hr>
 
 ### What happens when we run `docker container run`
@@ -23,14 +22,11 @@
 `--detach, -d`\
 `docker container ps -a`\
 `--name`\
-`docker container logs -f <name>`\
-`docker container stop <name>`\
-`docker container start <name>`\
-`docker container rm <name>`\
-`docker container run -it --name nginx nginx bash`\
-Above command starts a new container interactively\
-`docker container exec -it nginx bash`\
-Above command runs additional command in existing container
+`docker container logs -f <container-name>`\
+`docker container stop <container-name>`\
+`docker container start <container-name>`\
+`docker container rm <container-name>`\
+`docker container exec -it <container-name> bash`
 
 <hr>
 
@@ -38,4 +34,4 @@ Above command runs additional command in existing container
 
 <hr>
 
-🌌 **[Let's continue](class-2.md)**
+🌌 **[Let's continue: container images](../2-container-images/class-1.md)**

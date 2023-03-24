@@ -1,14 +1,7 @@
 ## Prerequisites
 - Register an account on [https://hub.docker.com](https://hub.docker.com)
 - Docker Desktop
-- AZ CLI (optional)
-### Windows
-If you run windows you will also need to install WSL 2
-### To install Docker Desktop and WSL 2 you need to log a ticket on ING Portal
-- Go to [ServiceNow (ING Portal)](https://ing.service-now.com/ing_portal)
-- Click on 'Get Help'
-- Example of request:
-![](../media/prerequisites/service-now.png)
+- Git
 ### Check everything is working
 
 Go to your terminal and write `docker version`

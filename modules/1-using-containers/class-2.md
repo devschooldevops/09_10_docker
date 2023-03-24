@@ -33,7 +33,7 @@ Test connectivity by installing ping inside container and run against another ru
 
 <hr>
 
-**5 minute break**
+**10 minute break**
 
 <hr>
 

@@ -23,13 +23,18 @@ No modifications to the app should be necessary, only edits to the Dockerfile in
 - This app listens on port 3000, but the container should listen on port 80 of the Docker host, so it will respond to [http://localhost:80](http://localhost:80) on your computer
 - Then it should use the alpine package manager to install tini: `apk add --no-cache tini`.
 - Then it should create directory /usr/src/app for app files with `mkdir -p /usr/src/app`, or with the Dockerfile command `WORKDIR /usr/src/app`.
-- Node.js uses a "package manager", so it needs to copy in package.json file.
-- Then it needs to run 'npm install' to install dependencies from that file.
+- Node.js uses a "package manager", so it needs to copy in `package.json` file.
+- Then it needs to run `npm install` to install dependencies from that file.
 - To keep it clean and small, run `npm cache clean --force` after the above, in the same RUN command.
 - Then it needs to copy in all files from current directory into the image.
-- Then it needs to start the container with the command `/sbin/tini -- node ./bin/www`. Be sure to use JSON array syntax for CMD. (`CMD [ "something", "something" ]`)
-- In the end you should be using FROM, RUN, WORKDIR, COPY, EXPOSE, and CMD commands
+- Then it needs to start the container with the command `/sbin/tini -- node ./bin/www`. Be sure to use JSON array syntax for CMD. Check the example from [this docker example](../dockerfile-example-1/Dockerfile) to see how it's done (it will look like `CMD [ "/sbin/tini",...]`)
+- In the end you should be using `FROM, RUN, WORKDIR, COPY, EXPOSE, and CMD` commands
 
 <hr>
 
-🤖 **[After you conquer Darth Maul, meet me at the persistent data supernova](../../3-persistent-data/class-1.md)**
+🤖 **Do or do not. There is no try.**
+
+<hr>
+
+🤖 Did you finish? If yes, take some rest.. for now.\
+🤖 Either way, proud of you I am for having you as my padawan ❤️
