@@ -1,7 +1,8 @@
 # Container images
 ## We will learn about:
 - What is an image?
-- What is inside an image?
+- What is inside an image
+- ?
 - How to use Docker Hub image registry
 - Managing our local image cache
 - Building our own images
@@ -14,6 +15,15 @@
 ### What is NOT inside an image?
 #### No operating system. No kernel.
 ![](../../media/module-2/os-container-layering.png)
+![Monolithic-architecture-diagram.svg](../../media/module-2/Monolithic-architecture-diagram.jpg)
+
+### Virtual Machine Architecture
+![virtual-machine-diagram.svg](../../media/module-2/virtual-machine-diagram.svg)
+
+### Container Architecture
+![container-diagram.svg](../../media/module-2/container-diagram.svg)
+
+https://learn.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm
 
 ### How to use Docker Hub image registry
 - Let's go to [https://hub.docker.com](https://hub.docker.com) and explore
