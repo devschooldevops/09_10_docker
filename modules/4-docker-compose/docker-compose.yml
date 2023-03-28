@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  homework:
+    image: bogdanbujor/homework
+    ports:
+      - 3001:3000
