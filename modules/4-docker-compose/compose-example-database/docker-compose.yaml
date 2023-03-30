@@ -3,6 +3,7 @@ services:
     # We use a mariadb image which supports both amd64 & arm64 architecture
     image: mariadb:10.6.4-focal
     command: '--default-authentication-plugin=mysql_native_password'
+    container_name: db
     volumes:
       - db_data:/var/lib/mysql
     restart: always
@@ -16,6 +17,7 @@ services:
       - 33060 #The port for X Protocol (mysqlx_port), supported by clients such as MySQL Shell, MySQL Connectors and MySQL Router
   wordpress:
     image: wordpress:latest
+    container_name: wordpress
     ports:
       - 80:80
     restart: always
