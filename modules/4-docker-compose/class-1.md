@@ -9,11 +9,25 @@
      1. containers
      2. networks
      3. volumes
-  2. A CLI tool `docker compose` used for local dev/test automation with the YAML from the point above
+  2. A CLI tool `docker compose` used for automatic the YAML from the point above
 
 <hr>
 
-### Now let's experiment with docker compose
+### Useful commands and bits of commands:
+`docker compose up`\
+`docker compose up -d`\
+`docker compose down`\
+`docker compose ls`
+
+## A. Now let's experiment with docker compose
+
+### 1. Let's run the docker-compose example found in [compose-example](compose-example/docker-compose.yml)
+### 2. Let's run the docker-compose example found in [compose-example-build](compose-example-build/docker-compose.yml)
+
+## B. Now, let's replicate in docker compose some things we previously did in cli
+### 1. Tuesday's [1st homework](../1-using-containers/homework.md)
+### 2. [Today's Ventress exercise](../3-persistent-data/homework.md)
+
 <hr>
 
 #### Come back for the quiz after you finish with everything

@@ -12,11 +12,17 @@
 - Data integrity
 - Data agility considering upgrades
 
+#### DYOR: [more on how docker manages storage](https://docs.docker.com/storage/storagedriver/)
+
+<hr>
+
 ### Useful commands and bits of commands:
 `docker volume create <name>`\
 `docker volume list <name>`\
 `docker volume prune <name>`\
 `docker volume inspect <name>`
+
+<hr>
 
 ### Step 1: Let's go inside the [getting-started/app](getting-started/app) directory and build our docker image:
 `docker build -t todo .`
