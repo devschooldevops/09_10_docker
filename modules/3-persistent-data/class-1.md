@@ -12,7 +12,7 @@
 - Data integrity
 - Data agility considering upgrades
 
-#### DYOR: [more on how docker manages storage](https://docs.docker.com/storage/storagedriver/)
+#### Check: [more on how docker manages storage](https://docs.docker.com/storage/storagedriver/)
 
 <hr>
 
@@ -60,6 +60,10 @@ Yes you can, try.
 
 ### Go to the [quiz](https://kahoot.it/)
 
+**10 minute break**
+
+🌌 **[Next stop: Docker Compose](../4-docker-compose/class-1.md)**
+
 <hr>
 
-🌌 **[Ventress is advancing with her troops! Go fight her before we lose our headquarters!](homework.md)**
+🌌 **[Homework](homework.md)**

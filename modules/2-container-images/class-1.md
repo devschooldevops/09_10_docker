@@ -39,23 +39,26 @@ https://learn.microsoft.com/en-us/virtualization/windowscontainers/about/contain
 `docker login`\
 `docker logout`
 ### Building our own image
-**Let's use [this Dockerfile](dockerfile-example-1/Dockerfile) to build our own nginx from scratch**
 
-**After `cd` into `2-container-images/dockerfile-example-1` directory, run the below command and assign a tag**\
-`docker image build -t my-nginx .`
+**Check all Dockerfile commands: https://docs.docker.com/reference/dockerfile/**
+
+**Let's use [this Dockerfile](dockerfile-lab/Dockerfile) to build our own nginx from scratch**
+
+**After `cd` into `2-container-images/dockerfile-lab` directory, run the below command and assign a tag**\
+`docker image build -t my-nginx:1.0 .`
 
 **After you're done, check to see if the image is created:**\
 `docker image ls`
 
 **If it's created, let's run it:**\
-`docker container run -d -p 8081:80 my-nginx`
+`docker container run -d -p 8081:80 my-nginx:1.0`
 
-**Let's delete the container:**\
-`docker container rm -f my-nginx`
+**Let's create a 2.0 version of the docker image which displays 'Version - 2.0' in the index.html file (Don't forget to edit the file before building the image)**\
+`docker image build -t my-nginx:2.0 .`
 
 **Now let's upload the container to our own repository in docker hub.**\
 First, we have to prefix our image name with our username in docker hub:\
-`docker image tag my-nginx MY-USERNAME/my-nginx:latest`
+`docker image tag my-nginx MY-USERNAME/my-nginx:2.0`
 
 **Send it!**\
 `docker image push MY-USERNAME/my-nginx:latest`
@@ -64,7 +67,6 @@ First, we have to prefix our image name with our username in docker hub:\
 
 🌌 **10min break**
 
-
 <hr>
 
-🌌 **[Quick! Darth Maul hyperdrived in our galaxy. If you're ready, go face him. Good luck little padawan.](homework/README.md)**
+🌌 **[Lab time](homework/README.md)**

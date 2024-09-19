@@ -1,6 +1,4 @@
-![](../../../media/module-2/darth-maul.jpg)
-
-# Instructions for the Darth Maul challenge
+# Instructions for the challenge
 
 This directory contains a Node.js app, and you need to get it running in a container.
 
@@ -37,4 +35,5 @@ No modifications to the app should be necessary, only edits to the Dockerfile in
 <hr>
 
 🤖 Did you finish? If yes, take some rest.. for now.\
-🤖 Either way, proud of you I am for having you as my padawan ❤️
+
+🌌 **[Next stop: Volumes](../../3-persistent-data/class-1.md)**

@@ -11,14 +11,20 @@
 <hr>
 
 ## Let's build our own image registry using docker hub!
+Run local registry `docker run -d -p 5000:5000 --name my-registry registry:2`
+
+Display repository stored images
 `curl -X GET http://localhost:5000/v2/_catalog`
 
-find images in repo:\
-`docker search <repo name>`
+Lets push a image (for e.g. todo)
+1. Tag your image with the local registry address
+2. Push the image in the local registry
+3. Remove the image from your local machine
+4. Pull the image from your local registry
+5. Check with the above curl that the local container registry contains your image
 <hr>
 
-### Come back for the quiz after you finish with everything
+### Go to the [quiz](https://kahoot.it/)
+### The END
 
 <hr>
-
-🌌 [We took over the Docker galaxy. What now?](class-2.md)

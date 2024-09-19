@@ -16,7 +16,7 @@
 7. Starts container by using the CMD in the image Dockerfile
 
 #### Useful commands and bits of commands:
-`docker container run -p 80:80 nginx`\
+`docker container run -d -p 80:80 nginx`\
 `docker image pull <name>`\
 `--publish, -p`\
 `--detach, -d`\
@@ -28,10 +28,4 @@
 `docker container rm <container-name>`\
 `docker container exec -it <container-name> bash`
 
-<hr>
-
-### Go to the [quiz](https://kahoot.it/)
-
-<hr>
-
-🌌 **[Let's continue: container images](../2-container-images/class-1.md)**
+🌌 **[Let's continue: docker network](../1-using-containers/class-2.md)**

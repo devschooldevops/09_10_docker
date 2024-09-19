@@ -33,8 +33,10 @@ Test connectivity by installing ping inside container and run against another ru
 
 <hr>
 
+### Go to the [quiz](https://kahoot.it/)
+
 **10 minute break**
 
 <hr>
 
-🌌 **[Let's continue our journey through the galaxy to our next stop: container images](../2-container-images/class-1.md)**
+🌌 **[Next stop: container images](../2-container-images/class-1.md)**

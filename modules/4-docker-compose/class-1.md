@@ -25,16 +25,15 @@
 ### 2. Let's run the docker-compose example found in [compose-example-build](compose-example-build/docker-compose.yml)
 
 ## B. Now, let's replicate in docker compose some things we previously did in cli
-### 1. Tuesday's [1st homework](../1-using-containers/homework.md)
-### 2. [Today's Ventress exercise](../3-persistent-data/homework.md)
+### 1. [Homework](../1-using-containers/homework.md)
+### 2. [Lab time](./compose-lab/docker-compose.yml)
+Create a docker compose file with 3 containers: nginx, mysql and postgres
+1. Expose port 80 for the nignx container
+2. Set the right environment variables for mysql and postgres, check docker hub images for details
+3. Provide the right named volumes to persist database content.
 
-<hr>
 
-#### Come back for the quiz after you finish with everything
-
-<hr>
-
-🌌 [DYOR: Advanced docker compose with secrets](https://blog.ruanbekker.com/blog/2017/11/23/use-docker-secrets-with-mysql-on-docker-swarm/)
+🌌 [Advanced docker compose with secrets](https://blog.ruanbekker.com/blog/2017/11/23/use-docker-secrets-with-mysql-on-docker-swarm/)
 
 <hr>
 
