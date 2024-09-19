@@ -9,7 +9,7 @@
 
 # What are Docker containers? Are they better? What's so different about them?
 ## Let's check it out [here](https://www.docker.com/resources/what-container/)
-### Presentation [here](../../media/module-0/welcome containers.pdf)
+### Presentation [here](../../media/module-0/Intro.pdf)
 
 <hr>
 
